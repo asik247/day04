@@ -37,3 +37,10 @@ for ( let i = 1; i <10; i++){
     }
     console.log(i);
 }
+// Problem 3: Odd number বাদ দাও (continue use করো) 1–10 থেকে শুধু even print
+for (let i = 0; i<=10; i++){
+    if (i%2!==0){
+        continue
+    }
+    console.log(i);
+}
