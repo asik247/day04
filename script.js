@@ -45,3 +45,9 @@ for (let i = 0; i<=10; i++){
     console.log(i);
 }
 // nex day
+for (let i = 0; i < 5; i++){
+    if(i==2){
+        continue;
+    }
+    console.log(i);
+}
